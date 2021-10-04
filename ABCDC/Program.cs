@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ABCDC
 {
@@ -6,6 +7,11 @@ namespace ABCDC
     {
         static void Main(string[] args)
         {
+            Session s = new Session();
+            s.Date = DateTime.Now;
+
+            List<Person> persons = new List<Person>();
+
             string option = "";
 
             do
@@ -29,8 +35,9 @@ namespace ABCDC
 
                 switch (option)
                 {
+
+                    //Gestion participants
                     case "1":
-                        //redirection
                         Console.Clear();
 
                         Console.WriteLine("\n\n     1- Ajouter un participant");
@@ -68,6 +75,8 @@ namespace ABCDC
                                 Console.Write("     Arme : ");
                                 p.Weapon = Console.ReadLine();
 
+                                persons.Add(p);
+
                                 Console.Clear();
                                 Console.WriteLine("\n\n     Votre nouveau participant:");
                                 Console.WriteLine("\n     " + p.LastName + " " + p.FirstName);
@@ -83,11 +92,38 @@ namespace ABCDC
 
                             //Suprimer particpant
                             case "2":
+                                Console.Clear();
+                                Console.WriteLine("Voici tous les participants:");
+
+                                int i = 1;
+                                foreach (Person item in persons)
+                                {
+                                    Console.WriteLine("\n     " + i + ") " + item.LastName + " " + item.FirstName);
+                                    Console.WriteLine("-------------------------------");
+                                }
+
+                                Console.Write("\n\n   Sélectionner le participants à supprimer: ");
+
+
+                                Console.Write("\n\n\nAppuyer sur <Enter> pour retourner au menu... ");
+                                while (Console.ReadKey().Key != ConsoleKey.Enter) { }
 
                                 break;
 
                             //Voir liste particpants
                             case "3":
+                                Console.Clear();
+                                Console.WriteLine("Voici tous les participants:");
+                                
+                                foreach(Person item in persons)
+                                {
+                                    Console.WriteLine("\n     " + item.LastName + " " + item.FirstName);
+                                    Console.WriteLine("-------------------------------");
+                                }
+
+                                Console.Write("\n\n\nAppuyer sur <Enter> pour retourner au menu... ");
+                                while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+
 
                                 break;
 
@@ -98,26 +134,32 @@ namespace ABCDC
 
                         break;
 
+
+                    //Gestion adhérants
                     case "2":
-                        //redirection
                         Console.Clear();
 
                         break;
 
+
+                    //Créer équipes
                     case "3":
-                        //redirection
                         Console.Clear();
 
                         break;
 
+
+                    //Quitter console
                     default:
                         Environment.Exit(0);
+
                         break;
                 }
 
             } while (option != "4");
 
-            
+
+
         }
     }
 }
