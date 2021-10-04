@@ -1,63 +1,70 @@
-class Name
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ABCDC
 {
-    ##region Properties 
-
-    public string firstName
+    class Person
     {
-        get { return _firstName; }
-        set { _firstName = value; }
-    }
+        #region Properties 
 
-    public string lastName
-    {
-        get { return _lastName; }
-        set { _lastName = value; }
-    }
+        public string FirstName
+        {
+            get { return _firstName; }
+            set { _firstName = value; }
+        }
 
-    public int weight
-    {
-        get { return _weight; }
-        set { _weight = value; }
-    }
+        public string LastName
+        {
+            get { return _lastName; }
+            set { _lastName = value; }
+        }
 
-    public int beginYear
-    {
-        get { return _beginYear; }
-        set { _beginYear = value; }
-    }
+        public int Weight
+        {
+            get { return _weight; }
+            set { _weight = value; }
+        }
 
-    public string weapon
-    {
-        get { return _weapon; }
-        set { _weapon = value; }
-    }
+        public int BeginYear
+        {
+            get { return _beginYear; }
+            set { _beginYear = value; }
+        }
 
-    public string armor
-    {
-        get { return _armor; }
-        set { _armor = value; }
-    }
+        public string Weapon
+        {
+            get { return _weapon; }
+            set { _weapon = value; }
+        }
 
-    ##endregion
+        public string Armor
+        {
+            get { return _armor; }
+            set { _armor = value; }
+        }
 
-    ##region Attributes
+        #endregion
 
-    private string _firstName; 
-    
-    private string _lastName;
-    
-    private int _weight;
-    
-    private int _beginYear;
-    
-    private string _weapon;
-    
-    private string _armor;
-    
-    ##endregion
+        #region Attributes
 
-    public Person(Parameters)
-    {
-        
+        private string _firstName;
+
+        private string _lastName;
+
+        private int _weight;
+
+        private int _beginYear;
+
+        private string _weapon;
+
+        private string _armor;
+
+        #endregion
+
+        public Person()
+        {
+
+        }
     }
 }
