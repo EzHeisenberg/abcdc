@@ -1,0 +1,13 @@
+C:\Users\tompo\source\repos\ABCDC\ABCDC\bin\Debug\netcoreapp3.1\ABCDC.exe
+C:\Users\tompo\source\repos\ABCDC\ABCDC\bin\Debug\netcoreapp3.1\ABCDC.deps.json
+C:\Users\tompo\source\repos\ABCDC\ABCDC\bin\Debug\netcoreapp3.1\ABCDC.runtimeconfig.json
+C:\Users\tompo\source\repos\ABCDC\ABCDC\bin\Debug\netcoreapp3.1\ABCDC.runtimeconfig.dev.json
+C:\Users\tompo\source\repos\ABCDC\ABCDC\bin\Debug\netcoreapp3.1\ABCDC.dll
+C:\Users\tompo\source\repos\ABCDC\ABCDC\bin\Debug\netcoreapp3.1\ABCDC.pdb
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.csprojAssemblyReference.cache
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.AssemblyInfoInputs.cache
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.AssemblyInfo.cs
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.csproj.CoreCompileInputs.cache
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.dll
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.pdb
+C:\Users\tompo\source\repos\ABCDC\ABCDC\obj\Debug\netcoreapp3.1\ABCDC.genruntimeconfig.cache
