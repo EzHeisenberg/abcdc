@@ -88,6 +88,8 @@ namespace ABCDC
 
                             //Voir liste particpants
                             case "3":
+                                Console.WriteLine("\n\n     Voici la liste actuelle des participants:");
+                                Console.WriteLine("\n     " + p.FirstName);
 
                                 break;
 
