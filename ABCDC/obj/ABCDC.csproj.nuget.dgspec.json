@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tompo\\source\\repos\\ABCDC\\ABCDC\\ABCDC.csproj": {}
+    "/Users/ezheisenberg/Desktop/Mes Cours/I1/Analyse du besoin et CDC/abcdc/ABCDC/ABCDC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tompo\\source\\repos\\ABCDC\\ABCDC\\ABCDC.csproj": {
+    "/Users/ezheisenberg/Desktop/Mes Cours/I1/Analyse du besoin et CDC/abcdc/ABCDC/ABCDC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tompo\\source\\repos\\ABCDC\\ABCDC\\ABCDC.csproj",
+        "projectUniqueName": "/Users/ezheisenberg/Desktop/Mes Cours/I1/Analyse du besoin et CDC/abcdc/ABCDC/ABCDC.csproj",
         "projectName": "ABCDC",
-        "projectPath": "C:\\Users\\tompo\\source\\repos\\ABCDC\\ABCDC\\ABCDC.csproj",
-        "packagesPath": "C:\\Users\\tompo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tompo\\source\\repos\\ABCDC\\ABCDC\\obj\\",
+        "projectPath": "/Users/ezheisenberg/Desktop/Mes Cours/I1/Analyse du besoin et CDC/abcdc/ABCDC/ABCDC.csproj",
+        "packagesPath": "/Users/ezheisenberg/.nuget/packages/",
+        "outputPath": "/Users/ezheisenberg/Desktop/Mes Cours/I1/Analyse du besoin et CDC/abcdc/ABCDC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tompo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ezheisenberg/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
         }
       }
     }
