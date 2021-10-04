@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{5DC1A5F5-967E-481F-97E8-7C5EB82C3D14}|Default">
+  <MonoDevelop.Ide.ItemProperties.ABCDC PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ABCDC/Person.cs">
+    <Files>
+      <File FileName="ABCDC/Program.cs" Line="41" Column="1" />
+      <File FileName="ABCDC/Person.cs" Line="61" Column="31" />
+      <File FileName="ABCDC/Weapon.cs" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ABCDC" expanded="True">
+            <Node name="ABCDC" expanded="True">
+              <Node name="Person.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
