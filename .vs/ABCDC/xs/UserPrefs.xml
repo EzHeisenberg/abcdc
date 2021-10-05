@@ -2,9 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.ABCDC PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ABCDC/Weapon.cs">
     <Files>
-      <File FileName="ABCDC/Person.cs" Line="69" Column="6" />
-      <File FileName="ABCDC/Program.cs" Line="1" Column="1" />
-      <File FileName="ABCDC/Weapon.cs" Line="8" Column="1" />
+      <File FileName="ABCDC/Weapon.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
