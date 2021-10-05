@@ -93,17 +93,37 @@ namespace ABCDC
                             //Suprimer particpant
                             case "2":
                                 Console.Clear();
-                                Console.WriteLine("Voici tous les participants:");
-
-                                int i = 1;
-                                foreach (Person item in persons)
+                                
+                                if (persons.Count == 0)
                                 {
-                                    Console.WriteLine("\n     " + i + ") " + item.LastName + " " + item.FirstName);
-                                    Console.WriteLine("-------------------------------");
+                                    Console.WriteLine("\n\n     Aucun particpant enregistré");
+                                } else
+                                {
+                                    Console.WriteLine("Voici tous les participants:");
+                                    int i = 1;
+                                    foreach (Person item in persons)
+                                    {
+                                        Console.WriteLine("\n     " + i + ") " + item.LastName + " " + item.FirstName);
+                                        Console.WriteLine("-------------------------------");
+                                        i++;
+                                    }
+
+                                    Console.Write("\n\n   Sélectionner le participant à supprimer: ");
+                                    int a = Int32.Parse(Console.ReadLine());
+                                    persons.Remove(persons[a - 1]);
+
+                                    //après suppression, clear l'écran
+                                    Console.Clear();
+
+                                    //puis réaffiche les participants
+                                    i = 1;
+                                    foreach (Person item in persons)
+                                    {
+                                        Console.WriteLine("\n     " + i + ") " + item.LastName + " " + item.FirstName);
+                                        Console.WriteLine("-------------------------------");
+                                        i++;
+                                    }
                                 }
-
-                                Console.Write("\n\n   Sélectionner le participants à supprimer: ");
-
 
                                 Console.Write("\n\n\nAppuyer sur <Enter> pour retourner au menu... ");
                                 while (Console.ReadKey().Key != ConsoleKey.Enter) { }
@@ -113,12 +133,19 @@ namespace ABCDC
                             //Voir liste particpants
                             case "3":
                                 Console.Clear();
-                                Console.WriteLine("Voici tous les participants:");
                                 
-                                foreach(Person item in persons)
+                                if (persons.Count == 0)
                                 {
-                                    Console.WriteLine("\n     " + item.LastName + " " + item.FirstName);
-                                    Console.WriteLine("-------------------------------");
+                                    Console.WriteLine("\n\n     Aucun participant enregistré");
+                                } else
+                                {
+                                    Console.WriteLine("Voici tous les participants:");
+
+                                    foreach (Person item in persons)
+                                    {
+                                        Console.WriteLine("\n     " + item.LastName + " " + item.FirstName);
+                                        Console.WriteLine("-------------------------------");
+                                    }
                                 }
 
                                 Console.Write("\n\n\nAppuyer sur <Enter> pour retourner au menu... ");

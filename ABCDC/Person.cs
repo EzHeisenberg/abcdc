@@ -6,6 +6,11 @@ namespace ABCDC
 {
     class Person
     {
+        public override string ToString()
+        {
+            return "NOM: " + LastName + "Prenom: " + FirstName;
+        }
+
         #region Properties 
 
         public string FirstName
